@@ -17,9 +17,9 @@ Since I am using this in with NodeRed in my off grid cabin, I will use those pat
 - To change the `name` of the zeroth relay, write the new string to `cabin/esp32Num1/relay_write/0/name`
 - To change the `state` of the zeroth relay, write the new state to `cabin/esp32Num1/relay_write/0/change_state` - this can be false/true/False/True/0/1
 ## What paths does it write to?
-- 'Relay0`'s state is written to `cabin/esp32Num1/relay_state/0/current_state`
-- 'Relay0`'s name is written to `cabin/esp32Num1/relay_state/0/name`
-- 'Relay0`'s pin number is written to `cabin/esp32Num1/relay_state/0/pin`
+- `Relay0`'s state is written to `cabin/esp32Num1/relay_state/0/current_state`
+- `Relay0`'s name is written to `cabin/esp32Num1/relay_state/0/name`
+- `Relay0`'s pin number is written to `cabin/esp32Num1/relay_state/0/pin`
 ## What else does it do?
 Currently it also has a pin setup for DS1820 temp sensors. It will scan the bus and write out the temp to `cabin/temp/DEVICESERIALNUMBER`. I currently have 2, `indoor` and `outdoor`.
 ## To Do
