@@ -1,7 +1,7 @@
 # Using MicroPython uMQTT.simple on the ESP32_Relay_8x board
 [Here is the board I'm using](https://www.amazon.com/Programmable-Channel-Development-Secondary-Projects/dp/B0C55SN32Q/), You will also need a [3.3v serial adapterr](https://www.amazon.com/IZOKEE-CP2102-Converter-Adapter-Downloader/dp/B07D6LLX19).
 ## Quick Setup instructions
-- Install Micropython on your board, I used Thonny
+- Install Micropython on your board, I used [Thonny](https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/)
 - Install umqtt
 ```
 import mip
